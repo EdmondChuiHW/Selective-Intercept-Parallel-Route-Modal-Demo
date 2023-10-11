@@ -4,10 +4,6 @@ const nextConfig = {
     return {
       beforeFiles: [
         {
-          source: "/",
-          destination: "/with-modal",
-        },
-        {
           source: "/photo/:path*",
           destination: "/with-modal/photo/:path*",
           has: [
@@ -23,6 +19,10 @@ const nextConfig = {
         {
           source: "/with-modal/:path*",
           destination: "/:path*",
+        },
+        {
+          source: "/:path*",
+          destination: "/with-modal/:path*",
         },
       ],
     };
