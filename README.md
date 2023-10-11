@@ -1,5 +1,8 @@
-# Originally a question from [Reddit]()
+# Originally a question from Reddit
+https://web.archive.org/web/https://old.reddit.com/r/nextjs/comments/174m3xf/how_to_stop_intercepting_routes_for_some_specific/
 
+# Live demo
+https://codesandbox.io/p/sandbox/github/EdmondChuiHW/Selective-Intercept-Parallel-Route-Modal-Demo
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
