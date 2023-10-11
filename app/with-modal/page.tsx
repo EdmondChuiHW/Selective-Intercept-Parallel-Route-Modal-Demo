@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const photos = repeat(10, (i) => ({ id: i, title: `Pic #${i}` }));
+const photos = repeat(10, (i) => ({ id: i + 1, title: `Pic #${i + 1}` }));
 
 export default function Home() {
   return (
