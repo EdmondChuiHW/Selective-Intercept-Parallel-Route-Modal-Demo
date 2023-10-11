@@ -7,6 +7,8 @@ The inline previews don't show the full path in both editors. Use "open preview 
 * [StackBlitz](https://stackblitz.com/github/EdmondChuiHW/Selective-Intercept-Parallel-Route-Modal-Demo)
 * [CodeSandbox](https://codesandbox.io/p/sandbox/github/EdmondChuiHW/Selective-Intercept-Parallel-Route-Modal-Demo)
 
+# Boilerplate
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
