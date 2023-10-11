@@ -1,6 +1,8 @@
 # Origin
 Originally a [question from Reddit](https://web.archive.org/web/https://old.reddit.com/r/nextjs/comments/174m3xf/how_to_stop_intercepting_routes_for_some_specific/)
 
+TLDR: We only want to select which routes to have intercepting routes, i.e. some pages should show a modal inline, some pages should show the standalone page
+
 # Live demo
 
 The inline previews don't show the full path in both editors. Use "open preview in new window" option to see the URL changes
