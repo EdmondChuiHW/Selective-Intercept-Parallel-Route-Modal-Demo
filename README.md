@@ -1,3 +1,4 @@
+# Origin
 Originally a [question from Reddit](https://web.archive.org/web/https://old.reddit.com/r/nextjs/comments/174m3xf/how_to_stop_intercepting_routes_for_some_specific/)
 
 # Live demo
@@ -6,6 +7,9 @@ The inline previews don't show the full path in both editors. Use "open preview 
 
 * [StackBlitz](https://stackblitz.com/github/EdmondChuiHW/Selective-Intercept-Parallel-Route-Modal-Demo)
 * [CodeSandbox](https://codesandbox.io/p/sandbox/github/EdmondChuiHW/Selective-Intercept-Parallel-Route-Modal-Demo)
+
+<img width="305" alt="screenshot of the demo showing inline intercept and parallel route" src="https://github.com/EdmondChuiHW/Selective-Intercept-Parallel-Route-Modal-Demo/assets/1967998/95d05b7c-08d4-419c-b4ff-36f094119d82">
+
 
 # Boilerplate
 
