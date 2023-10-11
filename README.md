@@ -2,6 +2,8 @@ Originally a [question from Reddit](https://web.archive.org/web/https://old.redd
 
 # Live demo
 
+The inline previews don't show the full path in both editors. Use "open preview in new window" option to see the URL changes
+
 * [StackBlitz](https://stackblitz.com/github/EdmondChuiHW/Selective-Intercept-Parallel-Route-Modal-Demo)
 * [CodeSandbox](https://codesandbox.io/p/sandbox/github/EdmondChuiHW/Selective-Intercept-Parallel-Route-Modal-Demo)
 
