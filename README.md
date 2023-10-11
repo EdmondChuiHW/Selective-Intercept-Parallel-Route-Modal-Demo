@@ -10,6 +10,29 @@ The inline previews don't show the full path in both editors. Use "open preview 
 
 <img width="305" alt="screenshot of the demo showing inline intercept and parallel route" src="https://github.com/EdmondChuiHW/Selective-Intercept-Parallel-Route-Modal-Demo/assets/1967998/95d05b7c-08d4-419c-b4ff-36f094119d82">
 
+# Expected behaviours
+
+## Inline modal
+1. `/`: home page
+1. `/photo/3`: shows modal
+1. `/`: dismiss modal
+1. `/photo/4`: shows modal
+1. Refresh page: shows standalone `/photo/4`
+
+## Opt-out of inline modal in some routes
+1. `/`: home page
+1. `/upload`: shows standalone page
+1. `/photo/4`: shows standalone page <-- what you want
+1. `/`: home page
+1. `/photo/4`: shows modal
+
+## Bug
+There's a bug where if you hard-nav to a `/photo/3` page, the router cache will "remember" it, e.g.
+1. `/photo/3`: shows standalone detail page
+1. `/`: home page
+1. `/photo/3`: should show modal in home page but shows the standalone detail page instead
+
+Play around a see if you can fix it.
 
 # Boilerplate
 
